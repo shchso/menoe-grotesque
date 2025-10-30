@@ -3,11 +3,12 @@
 }
 body {
   width: 1440px;
+  height: 8605px;
   display: block; /*как элемент реагирует на разные отступы */
   margin: 0 auto; /*выравнивание по центру/*/
   font-family: "Menoe Grotesque Pro";
   white-space: nowrap;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 }
 
 .firstSection h1 {
-  padding: 45px 0 0 174px;
+  padding: 45px 0 0 195px;
   color: #ffffff;
 }
 .secondSection {
@@ -119,13 +120,12 @@ h1 {
   padding: 92px 90px 41.58px 91px;
 }
 .arms img {
-  position: absolute;
-  top: 429px;
-  left: 1131px;
+  margin-top: -64px;
+  margin-left: -745px;
 }
 
 .forthSection {
-  width: 656px;
+  width: 657px;
   height: 326px;
   background-color: #a1adcb;
   margin-left: 65px;
@@ -138,41 +138,39 @@ h1 {
   background-color: #a1adcb;
   font-family: "Inter-Regular";
   font-size: 24px;
-  line-height: auto;
+  line-height: 29px;
   color: #ffffff;
+  display: flex;
 }
 
-.fifthSection p:nth-of-type(1) {
-  padding: 42px;
-  padding-left: 134px;
+.car1 {
+  padding: 42px 0 0 134px;
 }
-.fifthSection p:nth-of-type(2) {
-  padding: 60px;
-  padding-left: 134px;
+.car2 {
+  padding-top: 214px;
+  margin-left: -455px;
 }
 .fifthSection img {
-  position: absolute;
-  top: 1124px;
-  left: 516px;
+  margin-left: -540px;
+  margin-top: -35px;
 }
 .sixthSection {
   width: 1440px;
   height: 872px;
-  background-color: #a1adcb;
+  background-image: url(../images/pills.svg);
   display: flex;
   font-size: 16px;
   white-space: nowrap;
-  overflow: hidden;
 }
 .sixthSection h1 {
   padding: 53px 773px 733px 123px;
   color: #ffffff;
 }
-.pills1 {
-  padding-top: 505px;
-  margin-left: -1570px;
-  z-index: 2;
-  transform: rotate(-60deg);
+/* .pills1 {
+  transform: rotate(-90deg);
+  position: relative;
+  top: 550px;
+  right: 1440px;
 }
 .pills1 p:nth-of-type(1) {
   padding-bottom: 13.55px;
@@ -183,11 +181,13 @@ h1 {
 .pills1 p:nth-of-type(3) {
   padding-top: 11px;
 }
-.sixthSection img {
-  position: absolute;
-  padding: 223px 0 0 0;
-  z-index: 1;
+.whitebottle {
+  margin-left: -1668px;
+  margin-top: 9px;
 }
+.a {
+  transform: rotate(30deg);
+} */
 
 .sevenSection {
   width: 1440px;
@@ -199,8 +199,6 @@ h1 {
   letter-spacing: -2.56px;
   line-height: 90%;
   color: #a1adcb;
-  /* padding-top: 74px;
-  padding-left: 123px; */
   padding: 74px 0 0 123px;
 }
 .line img {
@@ -211,7 +209,7 @@ h1 {
 .sevenSection p {
   font-family: "Inter-Regular";
   font-size: 24px;
-  line-height: auto;
+  line-height: 29px;
   padding-top: 235px;
   margin-left: -464px;
 }
@@ -249,7 +247,7 @@ h1 {
   width: 1440px;
   height: 865px;
   overflow: hidden;
-  background-image: url(../images/apparat.svg);
+  background-image: url(../images/aparat1.svg);
   position: relative;
 }
 .tenSection h1 {
@@ -284,7 +282,6 @@ h1 {
 .secondMth p {
   font-size: 24px;
   margin-top: -10px;
-  padding-right: 10px;
 }
 .elevenSection {
   width: 1440px;
@@ -363,8 +360,9 @@ h1 {
 }
 .spray p:nth-of-type(2) {
   font-size: 24px;
-  letter-spacing: -1.5px;
+  letter-spacing: -1px;
   padding-top: 13px;
+  color: #000;
 }
 .spray p:nth-of-type(3) {
   font-size: 20px;
@@ -389,9 +387,10 @@ h1 {
   font-size: 20px;
   font-style: italic;
   margin-top: 30px;
+  color: #ffffff;
 }
 .cough {
-  color: #ffffff;
+  /* color: #ffffff; */
   position: relative;
   top: 234px;
   left: 213px;
@@ -405,6 +404,7 @@ h1 {
   font-style: italic;
   line-height: 90%;
   letter-spacing: -1px;
+  color: #000;
 }
 .bar p:nth-of-type(2) {
   font-size: 64px;
@@ -418,24 +418,15 @@ h1 {
   top: 514px;
   left: -490px;
 }
-/* .thirtSection {
-  width: 1440px;
-  height: 1078px;
-  background-color: #a1adcb;
-  background-color: fixed;
-  margin-top: 100px;
-  display: flex;
-  transform: rotate(9.43deg);
-} */
 .thirtSection {
   width: 1440px;
   height: 1078px;
   margin-top: 60px;
   position: relative;
   display: flex;
+
   transform: rotate(9.43deg);
 }
-
 .thirtSection::before {
   content: "";
   position: absolute;
@@ -499,7 +490,6 @@ h1 {
 }
 .finish2 {
   font-size: 24px;
-
   padding-top: 801px;
   margin-left: -717px;
   z-index: 2;
@@ -517,55 +507,3 @@ h1 {
   padding-top: 940px;
   z-index: 2;
 }
-/* .secondSection div:nth-of-type(2) {
-  padding: 241px 21px 9px 107px;
-}
-.secondSection div:nth-of-type(3) {
-  padding: 241px 106px 9px 22px;
-}
-.secondSection div:nth-of-type(4) {
-  padding: 128px 129px 90px 117px;
-} */
-/* .thirdSection {
-  display: flex;
-  background-image: url(../images/третий.svg);
-  width: 1440px;
-  height: 335px;
-  border: 4px solid #3a2e2e;
-}
-.thirdSection p {
-  font-size: 32px;
-}
-.thirdSection > div:nth-of-type(1) {
-  padding: 148px 62px 148px 66px;
-}
-.thirdSection div:nth-of-type(2) {
-  padding: 148px 103px 148px 0px;
-}
-.fourthSection {
-  display: flex;
-  background-color: #a1adcb;
-  width: 326px;
-  height: 656px;
-  margin-left: 66px;
-}
-.fourthSection h1 {
-  padding: 121px 0 0 58px;
-}
-.green {
-  width: 92px;
-  background-color: #00ffbf;
-  border-left: 4px solid #3a2e2e;
-  border-right: 4px solid #3a2e2e;
-}
-.snake div {
-  width: 268px;
-  height: 86px;
-  background-color: #a1adcb;
-}
-.snake img {
-  width: 157px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 29px;
-} */
