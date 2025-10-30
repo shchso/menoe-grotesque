@@ -1,0 +1,27 @@
+<svg width="194" height="509" viewBox="0 0 194 509" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="22.9746" y1="282" x2="67.2202" y2="282" stroke="black" stroke-width="6"/>
+<line x1="22.9746" y1="240.307" x2="67.2202" y2="240.307" stroke="black" stroke-width="6"/>
+<line x1="22.9746" y1="223.895" x2="67.2202" y2="223.895" stroke="black" stroke-width="15"/>
+<line x1="22.9746" y1="210.526" x2="67.2202" y2="210.526" stroke="black" stroke-width="6"/>
+<line x1="22.9746" y1="167.982" x2="67.2202" y2="167.982" stroke="black" stroke-width="6"/>
+<line x1="22.9746" y1="155.219" x2="67.2202" y2="155.219" stroke="black" stroke-width="6"/>
+<line x1="22.9746" y1="145.158" x2="67.2202" y2="145.158" stroke="black" stroke-width="4"/>
+<line x1="22.9746" y1="182.149" x2="67.2202" y2="182.149" stroke="black" stroke-width="10"/>
+<line x1="22.9746" y1="105.57" x2="67.2202" y2="105.57" stroke="black" stroke-width="10"/>
+<line x1="22.9746" y1="258.088" x2="67.2202" y2="258.088" stroke="black" stroke-width="30"/>
+<line x1="22.9746" y1="123.649" x2="67.2202" y2="123.649" stroke="black" stroke-width="30"/>
+<line y1="-3" x2="44.2456" y2="-3" transform="matrix(1 -1.15634e-07 -7.02774e-08 -1 22.9746 292.658)" stroke="black" stroke-width="6"/>
+<line y1="-3" x2="44.2456" y2="-3" transform="matrix(1 -1.15634e-07 -7.02774e-08 -1 22.9746 333.5)" stroke="black" stroke-width="6"/>
+<line y1="-7.5" x2="44.2456" y2="-7.5" transform="matrix(1 -1.15634e-07 -7.02774e-08 -1 22.9746 345.412)" stroke="black" stroke-width="15"/>
+<line y1="-3" x2="44.2456" y2="-3" transform="matrix(1 -1.15634e-07 -7.02774e-08 -1 22.9746 363.281)" stroke="black" stroke-width="6"/>
+<line y1="-3" x2="44.2456" y2="-3" transform="matrix(1 -1.15944e-07 -7.01633e-08 -1 22.9746 405.825)" stroke="black" stroke-width="6"/>
+<line y1="-3" x2="44.2456" y2="-3" transform="matrix(1 -1.16564e-07 -6.99382e-08 -1 22.9746 418.588)" stroke="black" stroke-width="6"/>
+<line y1="-2" x2="44.2456" y2="-2" transform="matrix(1 -1.15634e-07 -7.02774e-08 -1 22.9746 429.649)" stroke="black" stroke-width="4"/>
+<line y1="-5" x2="44.2456" y2="-5" transform="matrix(1 -1.15634e-07 -7.02774e-08 -1 22.9746 390.509)" stroke="black" stroke-width="10"/>
+<line y1="-5" x2="44.2456" y2="-5" transform="matrix(1 -1.17804e-07 -6.94993e-08 -1 22.9746 467.088)" stroke="black" stroke-width="10"/>
+<line y1="-10" x2="44.2456" y2="-10" transform="matrix(1 -1.15634e-07 -7.02774e-08 -1 22.9746 303.719)" stroke="black" stroke-width="20"/>
+<line y1="-2" x2="44.2456" y2="-2" transform="matrix(1 -1.16874e-07 -6.98271e-08 -1 22.9746 438.158)" stroke="black" stroke-width="4"/>
+<path d="M1.99998 83.917C2.0001 69.1677 14.7714 57 30.7939 57L163.206 57C178.497 57 190.831 68.0861 191.921 81.917L191.302 81.917C190.215 68.0732 177.944 57.3379 163.206 57.3379L30.7939 57.3379C15.3539 57.3379 2.61924 69.121 2.61912 83.917L2.61914 506.662L191.381 506.662L191.381 85.917L192 85.917L192 507L2 507L1.99998 83.917Z" stroke="black" stroke-width="4"/>
+<path d="M37 29L158 29L158 57L37 57L37 29ZM157.37 56.2002L157.37 29.7998L37.6299 29.7998L37.6299 56.2002L157.37 56.2002Z" stroke="black" stroke-width="4"/>
+<rect x="19" y="2" width="155" height="29" fill="#A1ADCB" stroke="black" stroke-width="4"/>
+</svg>

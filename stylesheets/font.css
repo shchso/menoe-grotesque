@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Menoe Grotesque Pro";
+  src: url("../fonts/Menoe\ Grotesque\ Pro.otf") format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Menoe Grotesque Pro";
+  src: url("../fonts/Menoe\ Grotesque\ Pro\ Italic.otf") format("opentype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../fonts/Inter-Regular.otf") format("opentype");
+  font-style: normal;
+}
