@@ -8,7 +8,6 @@ body {
   margin: 0 auto; /*выравнивание по центру/*/
   font-family: "Menoe Grotesque Pro";
   white-space: nowrap;
-  overflow-y: hidden;
 }
 
 h1 {
